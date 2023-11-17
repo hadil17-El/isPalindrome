@@ -1,0 +1,75 @@
+html {
+    text-align:left;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body {
+    background: #00bcd4;
+    display:block;
+    align-items:center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.div {
+    border-radius: 20px;
+    background: #00a8d4;
+    position: absolute;
+    box-shadow: #087b9f;
+    top: 140px;
+}
+.div .palin {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    padding-left: 16px;
+    margin-bottom: 68px;
+    position: relative;
+    border-radius: 50px;
+    bottom: 4px;
+    font-size: 2.2rem;
+}
+
+p {
+    height: 29px;
+    position: relative;
+    color: #fff;
+    font-size: 1.1rem;
+    background: #f3ddd6;
+    border-radius: 6px;
+    width: 69%;
+    margin-left: 15px;
+    padding: 8px;
+}
+
+#input {
+    background: #89e2fd;
+    padding: 8px;
+    width: 420px;
+    position: relative;
+    border-radius: 10px;
+    bottom: 22px;
+    font-size: 1.2rem;
+    margin-left: 16px;
+}
+#input:focus {
+    color:bisque;
+}
+ .button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 6px 14px;
+    border:unset;
+    color:#087b9f;
+    position: relative;
+    font-weight: 1000;
+    cursor: pointer;
+    border-radius: 6px;
+    top: 15px;
+    margin-right: 10px;
+
+
+
+ }
+ .button:hover {
+    background: #087b9f;
+    color:#fff;
+ }
